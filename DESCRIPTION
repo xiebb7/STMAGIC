@@ -1,0 +1,14 @@
+Package: STMAGIC
+Type: Package
+Title: Mutil-omics data of Gastrulation on CornPlot
+Version: 1.0
+Author: Bingbing Xie
+Maintainer: Bingbing Xie <xie_bingbing@gzlab.ac.cn>
+Description: STMAGIC enable show gene(gene sets) expression, peak(peak sets) accessibility, cell type pattern during Gastrulation (E6.5~E7.5) on CornPlot which based on GEO-seq technology.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: R(>= 4.0)
+Imports: AUCell,ggplot2,GenomicRanges,scales,philentropy,proxyC,methods,Matrix
+Collate: "object.R" "utilities.R" "visualization.R"
+RoxygenNote: 7.2.0
