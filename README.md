@@ -6,7 +6,7 @@ to illustrate gene expression, peak accessibility, celltype distribution on spat
 the genesets and peaksets status on spatial domain. STMAGIC also provide a tool to screen position specific genes, peaks or celltypes.
 
 ## Installation
-You can install STMAGIC from github with:
+To release the latest develop version from GitHub:
 ```R
 devtools::install_github('xiebb7/STMAGIC')
 ```
